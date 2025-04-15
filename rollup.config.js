@@ -7,13 +7,13 @@ export default {
   input: './src/main.tsx',
   output: {
     file: 'public/bundle.js',
-    format: 'cjs', // можно также 'esm', если ты используешь ES-модули
+    format: 'cjs',
     sourcemap: true,
   },
   plugins: [
     replace({
       preventAssignment: true,
-      'process.env.NODE_ENV': JSON.stringify('development'), // или 'production'
+      'process.env.NODE_ENV': JSON.stringify('development'),
     }),
     nodeResolve({
       extensions: ['.js', '.ts', '.jsx', '.tsx'],
