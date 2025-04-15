@@ -2,7 +2,7 @@
     "compilerOptions": {
       "target": "ES6",
       "module": "ESNext",
-      "jsx": "react-jsx", // или "react" если используешь старый runtime
+      "jsx": "react-jsx",
       "moduleResolution": "node",
       "esModuleInterop": true,
       "strict": true,
