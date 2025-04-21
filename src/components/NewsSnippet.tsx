@@ -2,7 +2,7 @@ import React from 'react';
 import { IData_SnippetNews } from '../types/interface';
 
 const NewsComp: React.FC<IData_SnippetNews> = ({ 
-     TI,, URL, DOM, KW, AU, CNTR
+     TI, URL, DOM, KW, AU, CNTR
  }) => {
   return (
     <section className="card">
