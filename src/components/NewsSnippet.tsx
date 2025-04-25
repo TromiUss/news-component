@@ -2,7 +2,7 @@ import React from 'react';
 import { IData_SnippetNews } from '../types/interface';
 
 const NewsComp: React.FC<IData_SnippetNews> = ({ 
-     TI, URL, DOM, KW, AU, CNTR, SENT
+     TI, URL, DOM, KW, AU, CNTR, SENT, HIGHLIGHTS
  }) => {
   return (
     <section className="card">
@@ -15,6 +15,7 @@ const NewsComp: React.FC<IData_SnippetNews> = ({
           <div className="author">{AU.join(', ')}</div>
         </div>
         <div className="card-inf">{SENT}</div>
+        <div className="card-text">{HIGHLIGHTS}</div>
         <div className="tag-section">
           {KW.map((tag, index) => (
             <div key={index} className="tag">
