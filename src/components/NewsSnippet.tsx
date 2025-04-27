@@ -16,6 +16,7 @@ const NewsComp: React.FC<IData_SnippetNews> = ({
         </div>
         <div className="card-inf">{SENT}</div>
         <div className="card-text">{HIGHLIGHTS}</div>
+        <div className="card"></div>
         <div className="tag-section">
           {KW.map((tag, index) => (
             <div key={index} className="tag">
