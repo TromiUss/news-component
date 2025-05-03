@@ -9,7 +9,7 @@ const NewsComp: React.FC<IData_SnippetNews> = ({
     <section className="card">
       <div className="card-header">
         <div className="card-title">{TI}</div>
-
+        <div className="card">{TI}</div>
         <div className="card-sub">
           <div className="source">{DOM}</div>
           <div className="location">{CNTR}</div>
