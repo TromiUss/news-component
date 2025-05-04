@@ -1,4 +1,4 @@
-import NewsComp from "./news-snippet";
+import NewsComp from "./News-snippet";
 import { IData_SnippetNews } from '../types/interface';
 
 
